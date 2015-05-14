@@ -33,7 +33,7 @@ namespace WebDAVTests
         [ExpectedException(typeof(InvalidOperationException))]
         public void Server_IsStarted()
         {
-            _server.Start();
+            _server.Start(WebDavConfig.WebDavUri.ToString());
         }
 
         #region PROPFIND

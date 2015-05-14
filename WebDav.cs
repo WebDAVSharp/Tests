@@ -19,8 +19,7 @@ namespace WebDAVTests
         internal static WebDavServer StartWebDavServer()
         {
             var server = new WebDavServer(new WebDavDiskStore(WebDavConfig.WebDavLocalPath));
-            server.Listener.Prefixes.Add(WebDavConfig.WebDavUri.ToString());
-            server.Start();
+            server.Start(WebDavConfig.WebDavUri.ToString());
 
             return server;
         }
