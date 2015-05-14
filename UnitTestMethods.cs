@@ -3,7 +3,7 @@ using System;
 using System.IO;
 using System.Net;
 using WebDAVSharp.Server;
-using WebDAVSharp.Server.Utilities;
+using WebDAVTests.Utilities;
 
 namespace WebDAVTests
 {

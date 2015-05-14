@@ -62,6 +62,7 @@
     <Compile Include="WebDav.cs" />
     <Compile Include="WebDavConfig.cs" />
     <Compile Include="WebDavMethod.cs" />
+    <Compile Include="Utilities\WebDavStatusCode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
